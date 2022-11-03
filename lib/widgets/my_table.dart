@@ -161,7 +161,7 @@ class _MyTableState extends State<MyTable> {
       child: WidgetFrom(
         textEditingController: textEditingController,
         hint: 'Number',
-        textInputType: TextInputType.number,
+        textInputType: TextInputType.text,
         changeFunc: (String string) {
           number = string.trim();
         },
