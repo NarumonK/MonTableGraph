@@ -24,6 +24,7 @@ class WidgetFrom extends StatelessWidget {
       decoration: InputDecoration(
         hintText: hint,
         filled: true,
+        fillColor: Colors.white,
         border: OutlineInputBorder(),
       ),
     );
